@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2675ffa1ed1e89fff432578b28171a9e4fd28744f1fb34110d03dd87e2ba41ea"
+            "sha256": "b9655a664cb71c599960544801ae048f8ddb455ecad7d2208600700fcd5f45da"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -188,6 +188,14 @@
             "index": "pypi",
             "markers": "python_version >= '3.6'",
             "version": "==3.10"
+        },
+        "ntplib": {
+            "hashes": [
+                "sha256:899d8fb5f8c2555213aea95efca02934c7343df6ace9d7628a5176b176906267",
+                "sha256:8d27375329ed7ff38755f7b6d4658b28edc147cadf40338a63a0da8133469d60"
+            ],
+            "index": "pypi",
+            "version": "==0.4.0"
         },
         "pydantic": {
             "hashes": [

@@ -17,6 +17,7 @@ starlette = "==0.38.6"
 typing-extensions = "==4.12.2"
 uvicorn = "==0.31.0"
 requests = "*"
+ntplib = "*"
 
 [dev-packages]
 
