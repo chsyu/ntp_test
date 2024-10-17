@@ -57,9 +57,6 @@ def get_time_from_ntp_server():
         # 獲取本地時間的時間戳（秒數）
         local_time = datetime.now().timestamp() - time_difference
 
-        # 計算本地時間與 NTP 伺服器時間之間的差異（秒數）
-        time_difference = local_time - ntp_time
-
         print(f"NTP time: {ntp_time} seconds.")
         print(f"local time: {local_time} seconds.")
         print(f"Time difference: {time_difference} seconds.")
