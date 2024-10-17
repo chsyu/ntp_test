@@ -71,6 +71,14 @@ async def startup_event():
     sync_time_with_ntp_server()
 
 
+
+@app.get("/get_time")
+def get_time():
+    global time_difference
+    timestamp = datetime.now().timestamp() - time_difference
+    return {"timeStamp": datetime.now().timestamp() - time_difference,
+            "formatted_time": datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')}
+
 @app.get("/check_time")
 def check_time():
     get_time_from_ntp_server()
